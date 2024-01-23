@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <default sync-j="4" revision="kirkstone"/>
+  <default sync-j="4" revision="nanbield"/>
 
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/YoeDistro" name="yocto-ti"/>
   <remote fetch="https://github.com/intel-iot-devkit" name="intel-iot"/>
   <remote fetch="https://github.com/meta-qt5" name="qt5"/>
   <remote fetch="https://github.com/bytesatwork" name="bytesatwork"/>
 
-  <project remote="yocto" revision="09def309f91929f47c6cce386016ccb777bd2cfc" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="bafd1d013c2470bcec123ba4eb8232ab879b2660" name="meta-arm" path="sources/meta-arm"/>
-  <project remote="yocto" revision="5eb1a669b82bfa58c5fc85ceadab815c6c4a6e61" name="meta-ti" path="sources/meta-ti"/>
-  <project remote="oe" revision="571e36e20e9d1f27af0eb4545291beeb64f280e2" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="yocto" revision="bf9f2f6f60387b3a7cd570919cef6c4570edcb82" name="poky" path="sources/poky"/> //
+  <project remote="yocto" revision="db658a77af7e15cdb8e4d9231bef8c48c5d327fb" name="meta-arm" path="sources/meta-arm"/> //
+  <project remote="yocto-ti" revision="1cbf96ebb2c48c0377bee2ed94f0862312683d63" name="meta-ti" path="sources/meta-ti"/>
+  <project remote="oe" revision="2da6e1b0e43a8993fd422fee3f83940100b59f4c" name="meta-openembedded" path="sources/meta-openembedded"/> //
   <project remote="intel-iot" revision="65e2c5b2e5cb33760b2deb0fc249ab43ebdf08ef" name="meta-iot-cloud" path="sources/meta-iot-cloud"/>
   <project remote="qt5" revision="aec1934cb2708236c033f2d205d5c3fbbebf7555" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="bytesatwork" revision="b2887d13f329a4cf6e5dc4f4eb3e8eb7ff43264e" name="meta-bytesatwork" path="sources/meta-bytesatwork"/>
